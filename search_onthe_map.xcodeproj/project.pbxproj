@@ -16,6 +16,8 @@
 		11F4131727BD32C700BCCCA6 /* search_onthe_mapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4131627BD32C700BCCCA6 /* search_onthe_mapTests.swift */; };
 		11F4132127BD32C700BCCCA6 /* search_onthe_mapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4132027BD32C700BCCCA6 /* search_onthe_mapUITests.swift */; };
 		11F4132327BD32C700BCCCA6 /* search_onthe_mapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4132227BD32C700BCCCA6 /* search_onthe_mapUITestsLaunchTests.swift */; };
+		11F4133127BD32D700BCCCA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F4133027BD32D700BCCCA6 /* CoreLocation.framework */; };
+		11F4133327BD32E100BCCCA6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F4133227BD32E100BCCCA6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		11F4131C27BD32C700BCCCA6 /* search_onthe_mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = search_onthe_mapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F4132027BD32C700BCCCA6 /* search_onthe_mapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search_onthe_mapUITests.swift; sourceTree = "<group>"; };
 		11F4132227BD32C700BCCCA6 /* search_onthe_mapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search_onthe_mapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11F4133027BD32D700BCCCA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11F4133227BD32E100BCCCA6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F4133327BD32E100BCCCA6 /* MapKit.framework in Frameworks */,
+				11F4133127BD32D700BCCCA6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				11F4131527BD32C700BCCCA6 /* search_onthe_mapTests */,
 				11F4131F27BD32C700BCCCA6 /* search_onthe_mapUITests */,
 				11F412FD27BD32C400BCCCA6 /* Products */,
+				11F4132F27BD32D700BCCCA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,15 @@
 				11F4132227BD32C700BCCCA6 /* search_onthe_mapUITestsLaunchTests.swift */,
 			);
 			path = search_onthe_mapUITests;
+			sourceTree = "<group>";
+		};
+		11F4132F27BD32D700BCCCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F4133227BD32E100BCCCA6 /* MapKit.framework */,
+				11F4133027BD32D700BCCCA6 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

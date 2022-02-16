@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  search_onthe_map
-//
-//  Created by asuftech on 16.02.2022.
-//
+
 
 import UIKit
 
